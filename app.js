@@ -7,8 +7,7 @@ const clubRoutes = require('./routes/clubRoutes');
 const app = express();
 const PORT = process.env.PORT || 3002;
 
-// Middleware
-app.use(cors()); // Habilitamos CORS
+app.use(cors()); 
 app.use(bodyParser.json());
 
 // Rutas
